@@ -1,0 +1,83 @@
+<div class="eleguard-hero">
+  <div class="hero-badge">EleGuard AI</div>
+  <h1>Smart elephant monitoring for safer corridors</h1>
+  <p>
+    Monitor live camera feeds, review uploaded image detections, and track alert history
+    in one streamlined dashboard.
+  </p>
+  <div class="hero-pills">
+    <span>Live detection</span>
+    <span>Image analysis</span>
+    <span>Event history</span>
+  </div>
+</div>
+
+<style>
+  .eleguard-hero {
+    position: relative;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    padding: 1.5rem 1.6rem;
+    border-radius: 22px;
+    background: linear-gradient(135deg, rgba(20, 58, 49, 0.95), rgba(10, 18, 19, 0.9));
+    border: 1px solid rgba(117, 171, 135, 0.28);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+  }
+
+  .eleguard-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top right, rgba(90, 212, 126, 0.18), transparent 35%);
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: rgba(122, 233, 160, 0.12);
+    color: #9ef7ba;
+    border: 1px solid rgba(122, 233, 160, 0.25);
+    margin-bottom: 0.9rem;
+  }
+
+  .eleguard-hero h1 {
+    margin: 0;
+    line-height: 1.2;
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    color: #f3fff5;
+    font-weight: 800;
+  }
+
+  .eleguard-hero p {
+    margin: 0.8rem 0 1rem;
+    color: rgba(232, 240, 233, 0.82);
+    font-size: 1rem;
+    max-width: 760px;
+  }
+
+  .hero-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .hero-pills span {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    color: #dfeee1;
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+</style>
